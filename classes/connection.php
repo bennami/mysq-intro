@@ -4,12 +4,12 @@ class Connection{
     private $host = "localhost";
     private $user = "imane";
     private $pwd = "123";
-    private $dbName = "becode";
+    private $dbName = "new_schema";
 
 
    public function connect(){
 
-        $dsn = 'mysql:host='.$this->host.';dbname'.$this->dbName;
+        $dsn = 'mysql:host='.$this->host.';dbname='.$this->dbName;
         $pdo = new PDO($dsn,$this->user,$this->pwd);
 
         //error handling
