@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0962c3dc-31be-49da-9a9f-2b873273bde9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/databaseCall.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/homepageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databaseCall.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +19,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +47,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/classes" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -52,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582541628716</updated>
       <workItem from="1582541630222" duration="206000" />
+      <workItem from="1582543052788" duration="8553000" />
     </task>
     <servers />
   </component>
@@ -59,9 +85,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="538" y="380" key="NewPhpFileDialog" timestamp="1582541767009">
+    <state x="508" y="273" key="NewPhpClassDialog" timestamp="1582552114988">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="538" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1582541767009" />
+    <state x="508" y="273" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1582552114988" />
+    <state x="538" y="370" key="NewPhpFileDialog" timestamp="1582556792934">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="538" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1582554970285" />
+    <state x="538" y="370" key="NewPhpFileDialog/0.23.1440.822@0.23.1440.822" timestamp="1582556792934" />
   </component>
 </project>
