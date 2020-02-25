@@ -34,11 +34,11 @@ class getData extends connection
 
 
     //get users data with prepared statement
-    public function getInfoPrepared($firstName, $lastName, $username, $linkedin, $github, $email, $preferredLanguage, $avatar, $video, $quote, $quoteAuthor,$createdAt)
+    public function getInfoPrepared()
     {
-        $sql = "SELECT * FROM becode WHERE first_name = ? AND last_name =? AND username =? AND linkedin =? AND github=? AND email =? AND preferred_language =? AND avatar =? AND  video =? AND quote = ? AND quote_author =? AND created_at =?";
+        $sql = "SELECT * FROM becode";
         $stmt = $this->connect()->prepare($sql);
-        $stmt->execute([$firstName, $lastName, $username, $linkedin, $github, $email, $preferredLanguage, $avatar, $video, $quote, $quoteAuthor,$createdAt]);
+        $stmt->execute([]);
         $names = $stmt->fetchAll();
 
         foreach ($names as $name) {

@@ -8,7 +8,7 @@ class Controller{
         $connection->connect();
         $testObj = new getData();
         $testObj->getInfo();
-        $testObj->getInfoPrepared('wolf','smith','id','id','id','id','id','id','id','id','id','id');
+        $testObj->getInfoPrepared();
 
         //check if theres a connection to db
         if($connection){
