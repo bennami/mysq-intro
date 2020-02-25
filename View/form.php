@@ -94,7 +94,48 @@
 
 
 </div>
+<table border="1">
+<?php foreach ($data as $student): ?>
+    <tr>
+        <td>
+            <?php echo $student['first_name']; ?>
+        </td>
 
+
+        <td>
+            <?php echo $student['last_name']; ?>
+        </td>
+
+
+        <td>
+            <?php echo $student['username']; ?>
+        </td>
+        <td>
+            <?php echo $student['linkedin']; ?>
+        </td>
+        <td>
+            <?php echo $student['email']; ?>
+        </td>
+        <td>
+            <?php echo $student['preferred_language']; ?>
+        </td>
+        <td>
+            <?php echo $student['avatar']; ?>
+        </td>
+        <td>
+            <?php echo $student['video']; ?>
+        </td>
+        <td>
+            <?php echo $student['quote']; ?>
+        </td>
+        <td>
+            <?php echo $student['quote_author']; ?>
+        </td>
+        <td>
+            <?php echo $student['created_at']; ?>
+        </td>
+    <?php endforeach; ?>
+</table>
 <style>
     footer {
         text-align: center;

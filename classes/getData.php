@@ -4,7 +4,7 @@
 class getData extends connection
 {
 
-    //this function gets the data from the db without using prepared statements
+   /* //this function gets the data from the db without using prepared statements
     public function getInfo()
     {
         //select from the becode table, this var  contains all sql information
@@ -16,22 +16,21 @@ class getData extends connection
         //fetch data. i set the fetch to assoc array so dont need to do anything
         while ($row = $stmt->fetch()) {
             echo '<hr>';
-            echo/* $id = */$row['id'] . '<br>';
-            echo /*$firstName =*/ $row['first_name'] . '<br>';
-            echo /*$lastName = */$row['username'] . '<br>';
-            echo /*$username = */$row['linkedin'] . '<br>';
-            echo /*$github = */$row['github'] . '<br>';
-            echo /*$email = */$row['email'] . '<br>';
-            echo /*$preferredLanguage =*/ $row['preferred_language'] . '<br>';
-            echo /*$avatar =*/ $row['avatar'] . '<br>';
-            echo /*$video =*/ $row['video'] . '<br>';
-            echo /*$quote =*/ $row['quote'] . '<br>';
-            echo /*$quoteAuthor =*/ $row['quote_author'] . '<br>';
-            echo /*$createdAt =*/ $row['created_at'] . '<br>';
+            echo $row['id'] . '<br>';
+            echo  $row['first_name'] . '<br>';
+            echo $row['username'] . '<br>';
+            echo $row['linkedin'] . '<br>';
+            echo $row['github'] . '<br>';
+            echo $row['email'] . '<br>';
+            echo $row['preferred_language'] . '<br>';
+            echo $row['avatar'] . '<br>';
+            echo $row['video'] . '<br>';
+            echo $row['quote'] . '<br>';
+            echo $row['quote_author'] . '<br>';
+            echo $row['created_at'] . '<br>';
 
         }
-    }
-
+    }*/
 
     //get users data with prepared statement
     public function getInfoPrepared()
@@ -39,13 +38,8 @@ class getData extends connection
         $sql = "SELECT * FROM becode";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([]);
-        $names = $stmt->fetchAll();
+        return $data = $stmt->fetchAll();
 
-        foreach ($names as $name) {
-            echo $name['first_name'] . '<br>';
-            echo $name['linkedin'] . '<br>';
-
-        }
     }
 
 
@@ -55,7 +49,6 @@ class getData extends connection
         $sql = "INSERT INTO becode(first_name,last_name,username,linkedin, github, email, preferred_language, avatar,video, quote ,quote_author,created_at)VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute([$firstName, $lastName, $username, $linkedin, $github, $email, $preferredLanguage, $avatar, $video, $quote, $quoteAuthor, $createdAt]);
-
     }
 }
 
