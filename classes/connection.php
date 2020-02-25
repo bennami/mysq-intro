@@ -16,14 +16,11 @@ class Connection{
         $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE,PDO::FETCH_ASSOC);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        //fetch mode has to be associative array
+        //fetch mode has to be associative array when we fetch from db
         $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
         return$pdo;
     }
 
-    public function setPost(){
-
-    }
 }
 
 
