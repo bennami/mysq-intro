@@ -11,8 +11,11 @@ class getData extends connection
 
         //fetch data
         while ($row = $stmt->fetch()) {
+            echo '<hr>';
             echo $row['id'] . '<br>';
             echo $row['first_name'] . '<br>';
+            echo $row['username'] . '<br>';
+            echo $row['github'] . '<br>';
 
         }
     }
@@ -28,6 +31,8 @@ class getData extends connection
 
         foreach ($names as $name) {
             echo $name['first_name'] . '<br>';
+            echo $name['last_name'] . '<br>';
+            echo $name['username'] . '<br>';
         }
     }
 

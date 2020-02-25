@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0962c3dc-31be-49da-9a9f-2b873273bde9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/getData.php" beforeDir="false" afterPath="$PROJECT_DIR$/classes/getData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/homepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/homepageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="0962c3dc-31be-49da-9a9f-2b873273bde9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +29,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="mysqlintro.local" id="306b5852-7c99-4b79-863a-479289eec26a" name="mysqlintro.local" />
@@ -82,7 +75,7 @@
       <updated>1582541628716</updated>
       <workItem from="1582541630222" duration="206000" />
       <workItem from="1582543052788" duration="8553000" />
-      <workItem from="1582579371282" duration="4386000" />
+      <workItem from="1582579371282" duration="4805000" />
     </task>
     <servers />
   </component>
@@ -90,54 +83,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="771" height="271" key="GridCell.Tab.0.bottom" timestamp="1582589240210">
+    <state width="771" height="271" key="GridCell.Tab.0.bottom" timestamp="1582616870995">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1582589240210" />
-    <state width="771" height="271" key="GridCell.Tab.0.center" timestamp="1582589240209">
+    <state width="771" height="271" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1582616870995" />
+    <state width="771" height="271" key="GridCell.Tab.0.center" timestamp="1582616870995">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1582589240209" />
-    <state width="771" height="271" key="GridCell.Tab.0.left" timestamp="1582589240209">
+    <state width="771" height="271" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1582616870995" />
+    <state width="771" height="271" key="GridCell.Tab.0.left" timestamp="1582616870995">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1582589240209" />
-    <state width="771" height="271" key="GridCell.Tab.0.right" timestamp="1582589240210">
+    <state width="771" height="271" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1582616870995" />
+    <state width="771" height="271" key="GridCell.Tab.0.right" timestamp="1582616870995">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1582589240210" />
-    <state width="771" height="271" key="GridCell.Tab.1.bottom" timestamp="1582589240211">
+    <state width="771" height="271" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1582616870995" />
+    <state width="771" height="271" key="GridCell.Tab.1.bottom" timestamp="1582616870996">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1582589240211" />
-    <state width="771" height="271" key="GridCell.Tab.1.center" timestamp="1582589240211">
+    <state width="771" height="271" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1582616870996" />
+    <state width="771" height="271" key="GridCell.Tab.1.center" timestamp="1582616870995">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1582589240211" />
-    <state width="771" height="271" key="GridCell.Tab.1.left" timestamp="1582589240210">
+    <state width="771" height="271" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1582616870995" />
+    <state width="771" height="271" key="GridCell.Tab.1.left" timestamp="1582616870995">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1582589240210" />
-    <state width="771" height="271" key="GridCell.Tab.1.right" timestamp="1582589240211">
+    <state width="771" height="271" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1582616870995" />
+    <state width="771" height="271" key="GridCell.Tab.1.right" timestamp="1582616870996">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1582589240211" />
-    <state width="771" height="271" key="GridCell.Tab.2.bottom" timestamp="1582589240212">
+    <state width="771" height="271" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1582616870996" />
+    <state width="771" height="271" key="GridCell.Tab.2.bottom" timestamp="1582616870996">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.2.bottom/0.23.1440.821@0.23.1440.821" timestamp="1582589240212" />
-    <state width="771" height="271" key="GridCell.Tab.2.center" timestamp="1582589240211">
+    <state width="771" height="271" key="GridCell.Tab.2.bottom/0.23.1440.821@0.23.1440.821" timestamp="1582616870996" />
+    <state width="771" height="271" key="GridCell.Tab.2.center" timestamp="1582616870996">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.2.center/0.23.1440.821@0.23.1440.821" timestamp="1582589240211" />
-    <state width="771" height="271" key="GridCell.Tab.2.left" timestamp="1582589240211">
+    <state width="771" height="271" key="GridCell.Tab.2.center/0.23.1440.821@0.23.1440.821" timestamp="1582616870996" />
+    <state width="771" height="271" key="GridCell.Tab.2.left" timestamp="1582616870996">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.2.left/0.23.1440.821@0.23.1440.821" timestamp="1582589240211" />
-    <state width="771" height="271" key="GridCell.Tab.2.right" timestamp="1582589240212">
+    <state width="771" height="271" key="GridCell.Tab.2.left/0.23.1440.821@0.23.1440.821" timestamp="1582616870996" />
+    <state width="771" height="271" key="GridCell.Tab.2.right" timestamp="1582616870996">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
-    <state width="771" height="271" key="GridCell.Tab.2.right/0.23.1440.821@0.23.1440.821" timestamp="1582589240212" />
+    <state width="771" height="271" key="GridCell.Tab.2.right/0.23.1440.821@0.23.1440.821" timestamp="1582616870996" />
     <state x="508" y="272" key="NewPhpClassDialog" timestamp="1582579397979">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
@@ -154,7 +147,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/classes/getData.php</url>
-          <line>25</line>
+          <line>28</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">

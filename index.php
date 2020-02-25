@@ -3,14 +3,18 @@ ini_set('display_errors', "1");
 ini_set('display_startup_errors', "1");
 error_reporting(E_ALL);
 
-require 'controllers/homepageController.php';
+require 'classes/connection.php';
 require 'classes/getData.php';
+require 'controllers/homepageController.php';
+$controller = new Controller();
+$controller->render();
 //print_r(PDO::getAvailableDrivers());
 
 
-$testObj = new getData();
-$testObj->getUserStmt('Daniel','smith','id','id','id','id','id','id','id','id','id');
-$testObj->setUserStmt('Daniel','smith','id','id','id','id','id','id','id','id','id');
+
+
+
+
 
 
 
