@@ -5,11 +5,15 @@ error_reporting(E_ALL);
 
 require 'controllers/homepageController.php';
 require 'classes/getData.php';
-print_r(PDO::getAvailableDrivers());
+//print_r(PDO::getAvailableDrivers());
 
 
 $testObj = new getData();
-$testObj->getName();
+$testObj->getUserStmt('Daniel','smith','id','id','id','id','id','id','id','id','id');
+$testObj->setUserStmt('Daniel','smith','id','id','id','id','id','id','id','id','id');
+
+
+
 
 ?>
 

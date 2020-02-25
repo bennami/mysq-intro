@@ -4,7 +4,7 @@ require 'classes/insert.php';
 $connection = new connection();
 $connection->connect();
 if($connection){
-    echo 'connected';
+    echo 'connected'.'<br>';
 }
 if(isset($_POST['firstName'])){
 
