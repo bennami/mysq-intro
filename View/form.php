@@ -14,10 +14,10 @@
     <title>MySQL</title>
 </head>
 <body>
-<div class="container">
+<div  class="container">
     <h1>Form to test MySQL</h1>
 
-    <form method="post">
+    <form action="?page=student" method="post">
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label>ID:</label>
@@ -104,51 +104,14 @@
 
 
 </div>
-<table border="1">
-<?php foreach ($data as $student): ?>
-    <tr>
-        <td>
-            <?php echo $student['first_name']; ?>
-        </td>
 
-
-        <td>
-            <?php echo $student['last_name']; ?>
-        </td>
-
-
-        <td>
-            <?php echo $student['username']; ?>
-        </td>
-        <td>
-            <?php echo $student['linkedin']; ?>
-        </td>
-        <td>
-            <?php echo $student['email']; ?>
-        </td>
-        <td>
-            <img src="<?php echo 'images/' . $student['preferred_language'] . '.png' ?>" alt="flag">
-        </td>
-        <td>
-            <?php echo $student['avatar']; ?>
-        </td>
-        <td>
-            <?php echo $student['video']; ?>
-        </td>
-        <td>
-            <?php echo $student['quote']; ?>
-        </td>
-        <td>
-            <?php echo $student['quote_author']; ?>
-        </td>
-        <td>
-            <?php echo $student['created_at']; ?>
-        </td>
-    <?php endforeach; ?>
-</table>
 <style>
-    footer {
+    footer, table{
         text-align: center;
+    }
+
+    table{
+        margin: auto;
     }
 </style>
 </body>

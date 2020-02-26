@@ -6,16 +6,17 @@ error_reporting(E_ALL);
 require 'classes/connection.php';
 require 'classes/getData.php';
 require 'controllers/homepageController.php';
-$controller = new Controller();
-$controller->render();
+require 'controllers/introTableController.php';
+//get variable
+if(isset($_GET['page'])  && $_GET['page'] == 'student'){
+    $controller = new introTableController();
+    $controller->render();
+}else{
+    $controller = new Controller();
+    $controller->render();
+}
+
 //print_r(PDO::getAvailableDrivers());
-
-
-
-
-
-
-
 
 
 

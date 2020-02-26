@@ -7,8 +7,7 @@ class Controller {
         $connection = new connection();
         $connection->connect();
         $testObj = new getData();
-        //$testObj->getInfo();
-        $data = $testObj->getInfoPrepared();
+
 
         //check if theres a connection to db
         if($connection){
@@ -22,6 +21,7 @@ class Controller {
         }
 
         require 'View/form.php';
+
     }
 
 }
