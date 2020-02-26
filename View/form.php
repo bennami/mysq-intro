@@ -61,8 +61,18 @@
             </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label>Preferred language</label>
-                    <input type="text" name="preferred_language" class="form-control required">
+                    <label for="preferred_language" > Choose language here
+
+                        <select name="preferred_language">
+                            <option value="brazillian">brazillian</option>
+                            <option value="chinese">chinese</option>
+                            <option value="darija-arabic">darija-arabic</option>
+                            <option value="french">french</option>
+                            <option value="japanese">japanese</option>
+                            <option value="spanish">spanish</option>
+                        </select>
+                    </label>
+                    <!-- <input type="text" name="preferred_language" class="form-control required">-->
                 </div>
                 <div class="form-group col-md-6">
                     <label>Avatar</label>
@@ -117,7 +127,7 @@
             <?php echo $student['email']; ?>
         </td>
         <td>
-            <?php echo $student['preferred_language']; ?>
+            <img src="<?php echo 'images/' . $student['preferred_language'] . '.png' ?>" alt="flag">
         </td>
         <td>
             <?php echo $student['avatar']; ?>

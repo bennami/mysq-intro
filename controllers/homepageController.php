@@ -1,7 +1,7 @@
 <?php
 
 
-class Controller{
+class Controller {
 
     public function render(){
         $connection = new connection();
@@ -17,7 +17,7 @@ class Controller{
 
 
         if(!empty($_POST)){
-            $testObj->setUserStmt($_POST['first_name'],$_POST['last_name'],$_POST['username'],$_POST['linkedin'],$_POST['github'],$_POST['email'],$_POST['preferred_language'],$_POST['avatar'],$_POST['video'],$_POST['quote'],$_POST['quote_author'],$_POST['created_at']);
+            $testObj->insert($_POST['first_name'],$_POST['last_name'],$_POST['username'],$_POST['linkedin'],$_POST['github'],$_POST['email'],$_POST['preferred_language'],$_POST['avatar'],$_POST['video'],$_POST['quote'],$_POST['quote_author'],$_POST['created_at']);
 
         }
 
