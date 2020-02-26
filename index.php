@@ -7,14 +7,24 @@ require 'classes/connection.php';
 require 'classes/getData.php';
 require 'controllers/homepageController.php';
 require 'controllers/introTableController.php';
+require 'controllers/profileController.php';
+
 //get variable
-if(isset($_GET['page'])  && $_GET['page'] == 'student'){
-    $controller = new introTableController();
+if(isset($_GET['page']) && $_GET['page'] == 'student'){
+   $controller = new introTableController();
     $controller->render();
+
+}elseif(isset($_GET['id'])){
+    $profile =new profileController();
+      $profile->render();
+
 }else{
     $controller = new Controller();
     $controller->render();
 }
+
+
+
 
 //print_r(PDO::getAvailableDrivers());
 

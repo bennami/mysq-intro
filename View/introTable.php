@@ -13,7 +13,7 @@
     <?php foreach ($data as $student): ?>
     <tr>
         <td>
-            <a href="View/profile.php?id=<?php echo $student['id']; ?>"><?php echo $student['first_name']; ?></a>
+            <a href="?id=<?php echo $student['id']; ?>"><?php echo $student['first_name']; ?></a>
         </td>
 
 
@@ -27,6 +27,7 @@
             <img src="<?php echo 'images/' . $student['preferred_language'] . '.png' ?>" alt="flag">
         </td>
         <?php endforeach; ?>
+
 </table>
 </body>
 </html>

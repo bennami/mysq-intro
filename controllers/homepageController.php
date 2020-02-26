@@ -9,6 +9,10 @@ class Controller {
         $testObj = new getData();
 
 
+        $user =  $testObj->getProfile();
+        var_dump($user);
+
+
         //check if theres a connection to db
         if($connection){
             echo 'connected'.'<br>';
@@ -17,6 +21,9 @@ class Controller {
 
         if(!empty($_POST)){
             $testObj->insert($_POST['first_name'],$_POST['last_name'],$_POST['username'],$_POST['linkedin'],$_POST['github'],$_POST['email'],$_POST['preferred_language'],$_POST['avatar'],$_POST['video'],$_POST['quote'],$_POST['quote_author'],$_POST['created_at']);
+
+
+
 
         }
 
