@@ -9,6 +9,10 @@
 </head>
 <body>
 <h1>table</h1>
+<form action="?addStudent=addStudent" method="post">
+    <input type="submit" class="fadeIn fourth"  name="addStudent" value="Add student">
+</form>
+<h2>An overview of the students</h2>
 <table border="1">
     <?php foreach ($data as $student): ?>
     <tr>

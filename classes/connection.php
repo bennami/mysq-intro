@@ -7,7 +7,7 @@ class Connection{
     private $dbName = "new_schema";
 
 
-   public function connect(){
+   public function connect() : Pdo {
 
         $dsn = 'mysql:host='.$this->host.';dbname='.$this->dbName;
         $pdo = new PDO($dsn,$this->user,$this->pwd);

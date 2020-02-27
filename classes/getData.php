@@ -30,6 +30,7 @@ class getData extends connection
     public function getProfile(){
         $sql = "SELECT * FROM becode WHERE id = ?";
         $stmt = $this->connect()->prepare($sql);
+
         $userID = $_GET['id'];
         $stmt->execute([$userID]);
 

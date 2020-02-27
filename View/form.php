@@ -11,13 +11,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css"
           rel="stylesheet"/>
+
+
     <title>MySQL</title>
 </head>
 <body>
 <div  class="container">
     <h1>Form to test MySQL</h1>
 
-    <form action="?page=student" method="post">
+    <form action="?submitForm=form" method="post">
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label>ID:</label>
@@ -99,10 +101,10 @@
                     <input type="text" name="created_at" class="form-control required">
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" name="submitForm" class="btn btn-primary">Submit</button>
         </fieldset>
 
-
+    </form>
 </div>
 
 <style>
