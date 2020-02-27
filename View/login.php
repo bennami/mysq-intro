@@ -12,12 +12,12 @@
 
     <!-- Icon -->
     <div class="fadeIn first">
-      <img src="http://danielzawadzki.com/codepen/01/icon.svg" id="icon" alt="User Icon" />
+      <img src="https://img.icons8.com/carbon-copy/100/000000/user-male-circle.png" class=" max-width: 20%" id="icon" alt="User Icon" />
     </div>
 
     <!-- Login Form -->
     <form action="?login=login" method="post">
-      <input type="text" id="login" class="fadeIn second" name="loginName" placeholder="login">
+      <input type="text" id="login" class="fadeIn second" name="loginEmail" placeholder="email">
       <input type="text" id="password" class="fadeIn third" name="loginPassword" placeholder="password">
       <input type="submit" class="fadeIn fourth"  name="submitLogin" value="Log In">
     </form>

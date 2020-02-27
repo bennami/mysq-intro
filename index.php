@@ -15,10 +15,10 @@ require 'controllers/RegisterController.php';
 require 'controllers/loginController.php';
 
 //get variable
-if(isset($_GET['page']) && $_GET['page'] == 'student' || isset($_GET['addStudent']) && $_GET['addStudent'] == 'addStudent'){
+if( isset($_GET['addStudent']) && $_GET['addStudent'] == 'addStudent'){
     $controller = new  formController();
-  // $controller = new introTableController();
-}elseif (isset($_POST['submitLogin']) || isset($_GET['submitForm']) && $_GET['submitForm'] == 'form'){
+
+}elseif(isset($_POST['submitLogin']) || isset($_GET['submitForm']) && $_GET['submitForm'] == 'form'){
     $controller = new introTableController();
 }
 elseif(isset($_GET['id'])){
