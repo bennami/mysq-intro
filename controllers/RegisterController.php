@@ -3,13 +3,19 @@
 
 class RegisterController
 {
-    public function render(){
-        $register = new Register();
+    public function render()
+    {
 
+            $register = new Register();
+            if (isset($_POST['submitRegister'])) {
+            $register->validateReg();
 
-            $register->registerUser();
+                $register->connect();
 
-
+            }
         require 'View/register.php';
+        }
 }
-}
+
+
+

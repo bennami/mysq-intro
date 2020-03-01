@@ -6,8 +6,8 @@ class loginController
     public function render(){
 
 
-            $register = new login();
-            $register->loginForm();
+            $login = new login();
+
             require 'View/login.php';
 
     }
