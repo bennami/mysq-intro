@@ -28,9 +28,6 @@ class login extends getData
     }
 
 
-
-
-
     public static function error(){
         echo '<script>alert("Your password or email is incorrect, please try again. If you do not have an account, register first")</script>';
     }

@@ -9,6 +9,9 @@
 </head>
 <body>
 <h1>table</h1>
+<form action="logout" method="get">
+    <a href="?logout">LOG OUT</a>
+</form>
 <form action="?addStudent=addStudent" method="post">
     <input type="submit" class="fadeIn fourth"  name="addStudent" value="Add student">
 </form>
